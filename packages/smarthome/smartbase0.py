@@ -9,7 +9,7 @@ class Sbase0:
     _prefixpy = _basePath+'/packages/modules/smarthome/'
 
     def __init__(self):
-        print('__init__ Sbase executed')
+        log.debug('__init__ Sbase executed')
 
     def readret(self):
         with open(self._basePath+'/ramdisk/smarthome_device_ret' +

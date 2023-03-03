@@ -10,7 +10,7 @@ class Snxdacxx(Sbase):
     def __init__(self) -> None:
         # setting
         super().__init__()
-        print('__init__ Snxdacxx executed')
+        log.debug('__init__ Snxdacxx executed')
         self._smart_paramadd = {}  # type: dict [str,str]
         self._device_nxdacxxueb = 0
         self._device_nxdacxxtype = 0

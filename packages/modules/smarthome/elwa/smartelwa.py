@@ -11,7 +11,7 @@ class Selwa(Sbase):
         # setting
         super().__init__()
         self._dynregel = 1
-        print('__init__ Selwa executed')
+        log.debug('__init__ Selwa executed')
 
     def updatepar(self, input_param: Dict[str, str]) -> None:
         super().updatepar(input_param)

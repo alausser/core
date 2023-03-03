@@ -27,7 +27,7 @@ class Sbase(Sbase0):
     def __init__(self) -> None:
         # setting
         super().__init__()
-        print('__init__ Sbase executed')
+        log.debug('__init__ Sbase executed')
         self.mqtt_param = {}  # type: Dict[str, str]
         self.mqtt_param_del = {}  # type: Dict[str, str]
         self.device_name = 'none'
@@ -129,7 +129,7 @@ class Sbase(Sbase0):
 
     def __del__(self) -> None:
 
-        print('__del__ Sbase executed ')
+        log.debug('__del__ Sbase executed ')
 
     def prewatt(self, uberschuss: int, uberschussoffset: int) -> None:
         self._uberschuss = uberschuss

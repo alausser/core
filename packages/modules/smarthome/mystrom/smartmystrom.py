@@ -10,7 +10,7 @@ class Smystrom(Sbase):
         # setting
         super().__init__()
         self._old_measuretype0 = 'none'
-        print('__init__ Smystrom excuted')
+        log.debug('__init__ Smystrom excuted')
 
     def getwatt(self, uberschuss, uberschussoffset):
         self.prewatt(uberschuss, uberschussoffset)

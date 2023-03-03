@@ -14,7 +14,7 @@ class Savm(Sbase):
         self._device_actor = 'none'
         self._device_username = 'none'
         self._device_password = 'none'
-        print('__init__ Savm excuted')
+        log.debug('__init__ Savm excuted')
 
     def getwatt(self, uberschuss, uberschussoffset):
         self.prewatt(uberschuss, uberschussoffset)

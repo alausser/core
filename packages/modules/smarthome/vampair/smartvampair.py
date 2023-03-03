@@ -9,7 +9,7 @@ class Svampair(Sbase):
     def __init__(self):
         # setting
         super().__init__()
-        print('__init__ Svampair executed')
+        log.debug('__init__ Svampair executed')
 
     def getwatt(self, uberschuss, uberschussoffset):
         self.prewatt(uberschuss, uberschussoffset)

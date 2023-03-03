@@ -9,7 +9,7 @@ class Sratiotherm(Sbase):
     def __init__(self):
         # setting
         super().__init__()
-        print('__init__ Sratiotherm executed')
+        log.debug('__init__ Sratiotherm executed')
 
     def getwatt(self, uberschuss, uberschussoffset):
         self.prewatt(uberschuss, uberschussoffset)

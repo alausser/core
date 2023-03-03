@@ -13,7 +13,7 @@ class Shttp(Sbase):
         self._device_einschalturl = 'none'
         self._device_ausschalturl = 'none'
 
-        print('__init__ Shttp excuted')
+        log.debug('__init__ Shttp excuted')
 
     def getwatt(self, uberschuss, uberschussoffset):
         self.prewatt(uberschuss, uberschussoffset)
