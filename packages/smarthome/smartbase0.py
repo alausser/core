@@ -1,6 +1,7 @@
 import json
 import time
-from smarthome.global0 import log
+import logging
+log = logging.getLogger(__name__)
 
 
 class Sbase0:

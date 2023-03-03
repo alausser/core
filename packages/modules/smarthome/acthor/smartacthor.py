@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-from smarthome.smartbase import Sbase
-from smarthome.global0 import log
-from typing import Dict
 import subprocess
+from typing import Dict
+from smarthome.smartbase import Sbase
+import logging
+log = logging.getLogger(__name__)
 
 
 class Sacthor(Sbase):

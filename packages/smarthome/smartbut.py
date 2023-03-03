@@ -1,7 +1,8 @@
-from smarthome.smartbase0 import Sbase0
-from smarthome.global0 import log
-import urllib.request
 import json
+import urllib.request
+from smarthome.smartbase0 import Sbase0
+import logging
+log = logging.getLogger(__name__)
 
 
 class Spbase(Sbase0):

@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-import subprocess
-from smarthome.global0 import log
 from smarthome.smartbase import Sbase, Slmystrom
+import subprocess
+import logging
+log = logging.getLogger(__name__)
 
 
 class Smystrom(Sbase):

@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-from smarthome.smartbase import Sbase, Slhttp
-from smarthome.global0 import log
 import subprocess
+from smarthome.smartbase import Sbase, Slhttp
+import logging
+log = logging.getLogger(__name__)
 
 
 class Shttp(Sbase):
