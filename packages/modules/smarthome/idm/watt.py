@@ -7,6 +7,8 @@ import struct
 from pymodbus.constants import Endian
 from pymodbus.payload import BinaryPayloadBuilder
 from pymodbus.client.sync import ModbusTcpClient
+import logging
+log = logging.getLogger(__name__)
 named_tuple = time.localtime()  # getstruct_time
 time_string = time.strftime("%m/%d/%Y, %H:%M:%S idm watty.py", named_tuple)
 devicenumber = str(sys.argv[1])

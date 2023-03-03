@@ -4,6 +4,8 @@ import os
 import time
 import json
 import urllib.request
+import logging
+log = logging.getLogger(__name__)
 
 
 def totalPowerFromShellyJson(answer, workchan):

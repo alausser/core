@@ -4,6 +4,8 @@ import os
 import time
 import struct
 from pymodbus.client.sync import ModbusTcpClient
+import logging
+log = logging.getLogger(__name__)
 
 named_tuple = time.localtime()  # getstruct_time
 time_string = time.strftime("%m/%d/%Y, %H:%M:%S idm off.py", named_tuple)
